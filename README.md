@@ -67,6 +67,8 @@ For traditional bag-of-word retrieval models (BM25, TF-IDF, and LMIR) and our pr
 
 For deep neural model based on Lawformer, run `/src/experiments/train.sh` to fine-tune it, run `/src/experiments/test.py` to get the retrieval result `lfm_top100.json`.
 
+For evaluation, run `/src/experiments/metrics.py`, results will be printed on the console.
+
 For our deep neural model train set, see [this link](https://cloud.tsinghua.edu.cn/f/7c9231e0daaf4fd4894e/?dl=1); test set see [this link](https://cloud.tsinghua.edu.cn/f/448b8ff3202d428babe4/?dl=1).
 
 For our fine-tuned checkpoint, see [this link](https://cloud.tsinghua.edu.cn/f/ec54ceded8ab4b54ae4c/?dl=1).
