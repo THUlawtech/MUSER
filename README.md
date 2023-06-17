@@ -61,9 +61,9 @@ For jieba tokenized corpus `corpus.json`, see [this link](https://cloud.tsinghua
 
 ### Legal Element Prediction
 
-Run '/src/experiments/label_pred/data_preprocess.py' to preprocess the sentence-level training data.
+Run `/src/experiments/label_pred/data_preprocess.py` to preprocess the sentence-level training data.
 
-For legal fact label prediction, run '/src/experiments/label_pred/train.py'. For dispute focus prediction, run '/src/experiments/label_pred/train_zhengyi.py'. There are two training models you can select: BERT and Lawforemer.
+For legal fact label prediction, run `/src/experiments/label_pred/train.py`. For dispute focus prediction, run `/src/experiments/label_pred/train_zhengyi.py`. There are two training models you can select: BERT and Lawforemer.
 
 
 
