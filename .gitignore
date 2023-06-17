@@ -1,5 +1,6 @@
 /data/cases/cases_pool.json
 /data/cases/corpus.json
+/data/.DS_Store
 /raw_data/
 /src/experiments/__pycache__/
 /src/experiments/plm/
@@ -9,3 +10,4 @@
 /src/experiments/gen_labels_tfidf.py
 /src/preprocess/
 /src/stats/
+/src/.DS_Store
