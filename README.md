@@ -39,26 +39,34 @@ For jieba tokenized corpus `corpus.json`, see [this link](https://cloud.tsinghua
 
 ```json
 {
-  "uid": unique id of the case,
-  "caseID": case id assigned by the court,
+  "uid": "unique id of the case",
+  "caseID": "case id assigned by the court",
   "content": {
-    "本院查明": The court's findings of fact,
-    "本院认为": The court's opinion,
-    "法条": cited articles
+    "本院查明": "The court's findings of fact",
+    "本院认为": "The court's opinion",
+    "法条": "cited articles"
   },
-  "labels": {  # labels annotated at sentences
-    "案情标签": legal fact labels
-    "争议焦点": disputed focus labels
+  "labels": {
+    "案情标签": "legal fact labels annotated at sentences",
+    "争议焦点": "disputed focus labels annotated at sentences"
   },
-  "split_labels": {  # labels splited by level
-    "aqbq": legal fact labels,
-    "zyjd": disputed focus labels
+  "split_labels": {
+    "aqbq": "legal fact labels splited by level",
+    "zyjd": "disputed focus labels splited by level"
   }
 }
 ```
 
 ## Experiment
 
-For our SCR train set, see [this link](https://cloud.tsinghua.edu.cn/f/7c9231e0daaf4fd4894e/?dl=1); test set see [this link](https://cloud.tsinghua.edu.cn/f/448b8ff3202d428babe4/?dl=1).
+### Legal Element Prediction
 
-For our fine-tuned SCR checkpoint, see [this link](https://cloud.tsinghua.edu.cn/f/ec54ceded8ab4b54ae4c/?dl=1).
+### Similar Case Retrieval
+
+For traditional bag-of-word retrieval models (BM25, TF-IDF, and LMIR) and our proposed legal-element-based model, run `/src/experiments/solve_{model_name}.py` to get retrieval results at `/data/predictions/{model_name}_top100.json`.
+
+For deep neural model based on Lawformer, run `/src/experiments/train.sh` to fine-tune it, run `/src/experiments/test.py` to get the retrieval result `lfm_top100.json`.
+
+For our deep neural model train set, see [this link](https://cloud.tsinghua.edu.cn/f/7c9231e0daaf4fd4894e/?dl=1); test set see [this link](https://cloud.tsinghua.edu.cn/f/448b8ff3202d428babe4/?dl=1).
+
+For our fine-tuned checkpoint, see [this link](https://cloud.tsinghua.edu.cn/f/ec54ceded8ab4b54ae4c/?dl=1).
