@@ -61,6 +61,13 @@ For jieba tokenized corpus `corpus.json`, see [this link](https://cloud.tsinghua
 
 ### Legal Element Prediction
 
+Run '/src/experiments/label_pred/data_preprocess.py' to preprocess the sentence-level training data.
+
+For legal fact label prediction, run '/src/experiments/label_pred/train.py'. For dispute focus prediction, run '/src/experiments/label_pred/train_zhengyi.py'. There are two training models you can select: BERT and Lawforemer.
+
+
+
+
 ### Similar Case Retrieval
 
 For traditional bag-of-word retrieval models (BM25, TF-IDF, and LMIR) and our proposed legal-element-based model, run `/src/experiments/solve_{model_name}.py` to get retrieval results at `/data/predictions/{model_name}_top100.json`.
