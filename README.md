@@ -29,9 +29,33 @@ data
   - stopword.txt
 ```
 
-For total case documents, see [this link](https://cloud.tsinghua.edu.cn/f/2fcef86efc99420b8108/?dl=1).
+For total case documents `case_pool.json`, see [this link](https://cloud.tsinghua.edu.cn/f/2fcef86efc99420b8108/?dl=1).
 
-For jieba tokenized corpus, see [this link](https://cloud.tsinghua.edu.cn/f/7016e6301b654f969c3b/?dl=1).
+For jieba tokenized corpus `corpus.json`, see [this link](https://cloud.tsinghua.edu.cn/f/7016e6301b654f969c3b/?dl=1).
+
+## Keys of the Case Document
+
+`case_pool.json` contains all cases in MUSER. The key definition of this file is as below:
+
+```json
+{
+  "uid": unique id of the case,
+  "caseID": case id assigned by the court,
+  "content": {
+    "本院查明": The court's findings of fact,
+    "本院认为": The court's opinion,
+    "法条": cited articles
+  },
+  "labels": {  # labels annotated at sentences
+    "案情标签": legal fact labels
+    "争议焦点": disputed focus labels
+  },
+  "split_labels": {  # labels splited by level
+    "aqbq": legal fact labels,
+    "zyjd": disputed focus labels
+  }
+}
+```
 
 ## Experiment
 
