@@ -29,9 +29,9 @@ data
   - stopword.txt
 ```
 
-For total case documents `case_pool.json`, see [this link](https://cloud.tsinghua.edu.cn/f/2fcef86efc99420b8108/?dl=1).
+For total case documents `case_pool.json`, see [this link](https://drive.google.com/file/d/15TgaACV8hilVeMl8zUTUuZ4RKqNPQ_38/view?usp=sharing).
 
-For jieba tokenized corpus `corpus.json`, see [this link](https://cloud.tsinghua.edu.cn/f/7016e6301b654f969c3b/?dl=1).
+For jieba tokenized corpus `corpus.json`, see [this link](https://drive.google.com/file/d/1bxayhEsU6NvTVoWggy24NFT4tSacf68w/view?usp=sharing).
 
 ## Keys of the Case Document
 
@@ -76,6 +76,6 @@ For deep neural model based on Lawformer, run `/src/experiments/train.sh` to fin
 
 For evaluation, run `/src/experiments/metrics.py`, results will be printed on the console.
 
-For our deep neural model train set, see [this link](https://cloud.tsinghua.edu.cn/f/7c9231e0daaf4fd4894e/?dl=1); test set see [this link](https://cloud.tsinghua.edu.cn/f/448b8ff3202d428babe4/?dl=1).
+For our deep neural model train set, see [this link](https://drive.google.com/file/d/1_q2WgfDH84aAbWfytZz4j6cJEW-CznJl/view?usp=sharing); test set see [this link](https://drive.google.com/file/d/1xdHAATu1_5yNRiOMjnBfJHpGVzhTScpL/view?usp=sharing).
 
-For our fine-tuned checkpoint, see [this link](https://cloud.tsinghua.edu.cn/f/ec54ceded8ab4b54ae4c/?dl=1).
+For our fine-tuned checkpoint, see [this link](https://drive.google.com/file/d/1XGPhE4Cwr6mXzQ1zJb856ofJ9LeMgp0m/view?usp=sharing).
