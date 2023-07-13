@@ -33,6 +33,10 @@ For total case documents `case_pool.json`, see [this link](https://drive.google.
 
 For jieba tokenized corpus `corpus.json`, see [this link](https://drive.google.com/file/d/1bxayhEsU6NvTVoWggy24NFT4tSacf68w/view?usp=sharing).
 
+## Legal Element Label Schema
+
+For our hierarchical legal element label schema and their English meanings, see [this link](https://docs.google.com/spreadsheets/d/1VTLhiPLrCufI_Zhd4bjcp7zlqC7mJEkp/edit?usp=sharing&ouid=103483335604509478099&rtpof=true&sd=true).
+
 ## Keys of the Case Document
 
 `case_pool.json` contains all cases in MUSER. The key definition of this file is as below:
@@ -64,9 +68,6 @@ For jieba tokenized corpus `corpus.json`, see [this link](https://drive.google.c
 Run `/src/experiments/label_pred/data_preprocess.py` to preprocess the sentence-level training data.
 
 For legal fact label prediction, run `/src/experiments/label_pred/train.py`. For dispute focus prediction, run `/src/experiments/label_pred/train_zhengyi.py`. There are two training models you can select: BERT and Lawformer.
-
-
-
 
 ### Similar Case Retrieval
 
