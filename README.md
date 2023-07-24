@@ -1,6 +1,6 @@
 # MUSER
 
-Source code and dataset of "MUSER: A Multi-View Similar Retrieval Dataset".
+Source code and dataset for "MUSER: A Multi-View Similar Retrieval Dataset".
 
 ## Dataset Structure
 
