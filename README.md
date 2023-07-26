@@ -29,7 +29,7 @@ data
   - stopword.txt
 ```
 
-For total case documents `case_pool.json`, see [this link](https://drive.google.com/file/d/15TgaACV8hilVeMl8zUTUuZ4RKqNPQ_38/view?usp=sharing).
+For total case documents `cases_pool.json`, see [this link](https://drive.google.com/file/d/15TgaACV8hilVeMl8zUTUuZ4RKqNPQ_38/view?usp=sharing).
 
 For jieba tokenized corpus `corpus.json`, see [this link](https://drive.google.com/file/d/1bxayhEsU6NvTVoWggy24NFT4tSacf68w/view?usp=sharing).
 
