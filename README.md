@@ -1,6 +1,6 @@
 # MUSER
 
-Source code and dataset for CIKM 2023 paper "MUSER: A Multi-View Similar Case Retrieval Dataset". [paper](https://arxiv.org/abs/2310.15602)
+Source code and dataset for CIKM 2023 paper "MUSER: A Multi-View Similar Case Retrieval Dataset". [[paper](https://arxiv.org/abs/2310.15602)]
 
 ## Dataset Structure
 
