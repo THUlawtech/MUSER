@@ -1,6 +1,6 @@
 # MUSER
 
-Source code and dataset for CIKM 2023 paper "MUSER: A Multi-View Similar Case Retrieval Dataset".
+Source code and dataset for CIKM 2023 paper "MUSER: A Multi-View Similar Case Retrieval Dataset". [paper](https://arxiv.org/abs/2310.15602)
 
 ## Dataset Structure
 
@@ -80,3 +80,14 @@ For evaluation, run `/src/experiments/metrics.py`, results will be printed on th
 For our deep neural model train set, see [this link](https://drive.google.com/file/d/1_q2WgfDH84aAbWfytZz4j6cJEW-CznJl/view?usp=sharing); test set see [this link](https://drive.google.com/file/d/1xdHAATu1_5yNRiOMjnBfJHpGVzhTScpL/view?usp=sharing).
 
 For our fine-tuned checkpoint, see [this link](https://drive.google.com/file/d/1XGPhE4Cwr6mXzQ1zJb856ofJ9LeMgp0m/view?usp=sharing).
+
+## Citation
+```
+@inproceedings{li2023muser,
+  title={MUSER: A Multi-View Similar Case Retrieval Dataset},
+  author={Li, Qingquan and Hu, Yiran and Yao, Feng and Xiao, Chaojun and Liu, Zhiyuan and Sun, Maosong and Shen, Weixing},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={5336--5340},
+  year={2023}
+}
+```
