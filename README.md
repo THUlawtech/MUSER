@@ -67,6 +67,8 @@ For our hierarchical legal element label schema and their English meanings, see 
 
 Run `/src/experiments/label_pred/data_preprocess.py` to preprocess the sentence-level training data.
 
+The dataset we proposed on this repo has already been preprocessed. You can directly use it to train the model.
+
 For legal fact label prediction, run `/src/experiments/label_pred/train.py`. For dispute focus prediction, run `/src/experiments/label_pred/train_zhengyi.py`. There are two training models you can select: BERT and Lawformer.
 
 ### Similar Case Retrieval
