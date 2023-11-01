@@ -84,6 +84,9 @@ For our deep neural model train set, see [this link](https://drive.google.com/fi
 For our fine-tuned checkpoint, see [this link](https://drive.google.com/file/d/1XGPhE4Cwr6mXzQ1zJb856ofJ9LeMgp0m/view?usp=sharing).
 
 ## Citation
+
+If you use this dataset, please cite our paper.
+
 ```
 @inproceedings{li2023muser,
   title={MUSER: A Multi-View Similar Case Retrieval Dataset},
