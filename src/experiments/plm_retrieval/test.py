@@ -61,8 +61,8 @@ for qid in test_querys:
     query = cases_pool[qid]
     q_bycm, q_byrw = joint_sents(query['content']['本院查明'], query['content']['本院认为'])
     for cid, case in tqdm(cases_pool.items(), desc=f'qid: {qid}'):
-        # if int(cid) == qid or int(cid) not in qc_pairs[qid]:
-        if int(cid) == int(qid):
+        if int(cid) == qid or int(cid) not in qc_pairs[qid]:
+        # if int(cid) == int(qid):
             continue
         c_bycm, c_byrw = joint_sents(case['content']['本院查明'], case['content']['本院认为'])
         with torch.no_grad():
