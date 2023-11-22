@@ -51,8 +51,8 @@ for qid in tqdm(test_querys):
     # break
     for idx, score in zip(cases_pool.keys(), sim):
         i = int(idx)
-        # if qid == i or i not in qc_pairs[qid]:
-        if int(qid) == i:
+        if qid == i or i not in qc_pairs[qid]:
+        # if int(qid) == i:
             continue
         sim_scores.append((idx, score))
     # assert len(sim_scores) == 100
