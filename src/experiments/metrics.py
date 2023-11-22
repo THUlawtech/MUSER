@@ -105,7 +105,7 @@ for model in models:
         temk_list = []
         sp = 0.0
         for key in test_querys:
-            ranks = [i for i in pred_dict[key] if i in list(label_dict[key].keys())[:30]]
+            ranks = [i for i in pred_dict[key][:topk] if i in list(label_dict[key].keys())[:30]]
             sp += float(len([j for j in ranks[:topk] if label_dict[key][j] >= 5]) / topk)
         temk_list.append(sp / len(test_querys))
         sp_list.append((topk, temk_list))
